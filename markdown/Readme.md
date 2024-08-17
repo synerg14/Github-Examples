@@ -17,27 +17,29 @@ https://docs.github.com/en/get-started/writing-on-github/getting-started-with-wr
 
 ## Unordeded lists
 
-We can craete unorded lists in markdown using hypens.
+We can create unordered lists in markdown using hyphens.
 
 - foo
 - bar
-+ baz
-+ baz
+
+* baz
+* baz
 
 ## ordered lists
 
 1. foo
 1. bar
+
 3) baz
-3) baz
-3) baz
+4) baz
+5) baz
 
 ## Text formatting
 
 _italics_
-*italics*
+_italics_
 **bold**
-__bold__
+**bold**
 ~~striketrhough~~
 
 ## Code
@@ -47,7 +49,6 @@ __bold__
 You can print to the terminal using the `puts "hello world"` command.
 
 ### Multi line code
-
 
 #### Without highlighting
 
@@ -72,12 +73,11 @@ end
 | baz | bim |
 
 | abc | defghi |
-:-: | ------------------------: |
-bar | baz |
-
+| :-: | -----: |
+| bar |    baz |
 
 | abc | def |
-| --- | --- |
+| --- | --- | --- |
 | bar |
 | bar | baz | boo |
 
@@ -88,13 +88,14 @@ bar | baz |
 
 > "The cloud is amazing"
 
-  > # Foo
-   > bar
- > baz
+> # Foo
+>
+> bar
+> baz
 
 ## Links
 
-[Github Website](https://github.com) 
+[Github Website](https://github.com)
 
 [Secret Page](Secret.md)
 
